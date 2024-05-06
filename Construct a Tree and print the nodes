@@ -70,9 +70,12 @@ void Gll::insertc()
             {
                 temp = head;
                 temp = temp->down;
-                while (temp->next != NULL) next!=NULL
-                    temp = temp->next;
-                temp->next = t1; 
+                while (temp->next != NULL) 
+                    {
+                        
+                        temp = temp->next;
+                        temp->next = t1; 
+                    }
             }
         }
     }
@@ -278,3 +281,4 @@ int main()
     }
     return 0;
 }
+
